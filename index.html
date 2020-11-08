@@ -14,7 +14,11 @@
   <main>
     <div class="cart">
       <div class="cart-module">
-        <label for="promo-code">Enter a promotional code</label>
+        <p align:"text-center"></p>
+    <font size="10">
+    Adidas Store Checkout
+    </font>
+        <label for="promo-code">Enter A Promo Code To Save Some Money!</label>
         <input id="promo-code" type="text" name="promo-code" class="promo-code-field">
         <button class="promo-code">Apply</button>
       </div>
@@ -29,75 +33,79 @@
       <div class="cart-product">
         <div class="item">
           <div class="product-image">
-            <img src="./img/socks.jpg" alt="Image of Socks" class="product-frame">
+            <img src="./img/adidasshirt.jpg" class="product-frame">
           </div>
           <div class="product-details">
-            <h1><strong><span class="item-quantity">1</span> x Pair of Socks</strong>
-              <br>Cotton Tri-blend</h1>
-            <p><strong>Striped Socks, Multi-Color</strong></p>
-            <p>Product Code - 232321939</p>
+            <h1><strong><span class="item-quantity">Adidas Medium Black Tee</strong>
+              <br>
+              <br>Product Description:</h1>
+              Men's graphic tees and other casual t-shirts are made of soft cotton jersey 
+              with the better Cotton Initiative and reduce the environmental impact of cotton 
+              production to handle your everyday look.
           </div>
         </div>
-        <div class="price">15.00</div>
+        <div class="price">30.00</div>
         <div class="quantity">
           <input type="number" value="1" min="1" class="quantity-field">
         </div>
-        <div class="subtotal">15.00</div>
+        <div class="subtotal">30.00</div>
         <div class="remove">
-          <button>Remove</button>
+          <button>X</button>
         </div>
       </div>
       <div class="cart-product">
         <div class="item">
           <div class="product-image">
-            <img src="./img/hat.jpg" alt="Image of a Hat" class="product-frame">
+            <img src="./img/adidasshoes.jpg" class="product-frame">
           </div>
           <div class="product-details">
-            <h1><strong><span class="item-quantity">1</span> x Hat</strong>
-              <br>Black</h1>
-            <p><strong>"Stratact's Fedora"</strong></p>
-            <p>Product Code - 532721338</p>
-          </div>
+            <h1><strong><span class="item-quantity">NMD R1 The Mandalorian</strong>
+            <br>
+            <br>Product Description:</h1>
+            A collaboration with Star Wars And Lucasflim that brings a one of a kind
+            Mando inspired sneaker.
+            </div>
         </div>
-        <div class="price">26.00</div>
+        <div class="price">140.00</div>
         <div class="quantity">
           <input type="number" value="1" min="1" class="quantity-field">
         </div>
-        <div class="subtotal">26.00</div>
+        <div class="subtotal">140.00</div>
         <div class="remove">
-          <button>Remove</button>
+          <button>X</button>
         </div>
       </div>
     </div>
+    
     <aside>
       <div class="summary">
-        <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
+        <div class="summary-total-items"><span class="total-items"></span> Items In Your Shopping Cart</div>
         <div class="summary-subtotal">
           <div class="subtotal-title">Subtotal</div>
-          <div class="subtotal-value final-value" id="cart-subtotal">41.00</div>
+          <div class="subtotal-value final-value" id="cart-subtotal">170.00</div>
           <div class="summary-promo hide">
             <div class="promo-title">Promotion</div>
             <div class="promo-value final-value" id="cart-promo"></div>
           </div>
         </div>
-        <p>Free Shipping</p>
+        <p>Select A Shipping Carrier Of Your Choice</p>
         <div class="summary-delivery">
           <select name="delivery-collection" id="delivery-selection">
-            <option value="ground" selected="selected">Three Day Ground</option>
-            <option value="first-day">First Class Air</option>
-            <option value="second-day">Second Day Air</option>
+            <option value="UPS" selected="selected">UPS</option>
+            <option value="Fedex">Fedex</option>
+            <option value="USPS">USPS</option>
           </select>
         </div>
         <div class="taxes-total">
           <div class="total-title">Taxes</div>
-          <div class="total-value final-value" id="taxes">3.28</div>
+          <div class="total-value final-value" id="taxes">-</div>
         </div>
         <div class="summary-total">
           <div class="total-title">Total</div>
-          <div class="total-value final-value" id="cart-total">44.28</div>
+          <div class="total-value final-value" id="cart-total">170.00</div>
         </div>
         <div class="summary-checkout">
-          <button class="checkout-cta">Confirm Checkout</button>
+          <button class="checkout-cta">Checkout</button>
         </div>
       </div>
     </aside>

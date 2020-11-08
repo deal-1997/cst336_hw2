@@ -1,8 +1,8 @@
 
 body {
-  background-color: #fff;
+  background-color: #a9fdd8;
   color: #666;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roman', sans-serif;
   font-size: 62.5%;
   margin: 0 auto;
 }
@@ -37,13 +37,13 @@ button {
 }
 
 button {
-  background-color: #666;
+  background-color: #ff8303;
   color: #fff;
 }
 
 button:hover,
 button:focus {
-  background-color: #555;
+  background-color: #425;
 }
 
 img,
