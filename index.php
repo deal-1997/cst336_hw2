@@ -105,7 +105,7 @@
           <div class="total-value final-value" id="cart-total">170.00</div>
         </div>
         <div class="summary-checkout">
-          <button class="checkout-cta">Checkout</button>
+          <a href="checkoutmessage.php">Checkout</a>
         </div>
       </div>
     </aside>
